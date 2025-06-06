@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Yomogi&family=Patrick+Hand&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" href="img/logo.png" type="icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/><!--画像スライダーcss-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 
+        
+    </head>
+    <body>
+          <!--ローディング-->
+          <div class="loading">
+            
+            <span class="circle">
+            </span>
+            <img src="img/loadkuma.png">
+          </div>
+     <!--ここまでローディング-->
+     <!--ヘッダーココから-->
+        <header id="head_wrap">
+            <h1><a href="index.html"><img class="logo" src="img/logo.png" alt="ロゴ"></a></h1>
+
+  <!--ハンバーガーメニュー-->
+  <div class="hamburger">
+    <!-- ハンバーガーメニューの線 -->
+    <span></span>
+    <span></span>
+    <span></span>
+    <!-- /ハンバーガーメニューの線 -->
+  </div>
+<nav>
+    <ul class="slide-menu">
+        <li><a href="#">Top</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+    </ul>
+</nav>
+        </header>
+<!--ヘッダーメニューここまで-->
+<!--画像スライド-->
+　<!--画像の上にあるロゴ画像-->
+　<div class="slide-overlay">
+    <img src="img/mainlogo.png" alt="中央ロゴ" />
+  </div>
+　<!--ロゴ画像ここまで-->  
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/main1.jpg" alt="画像1" /></div>
+      <div class="swiper-slide"><img src="img/main3.jpg" alt="画像2" /></div>
+      <div class="swiper-slide"><img src="img/main2.png" alt="画像3" /></div>
+      <div class="swiper-slide"><img src="img/main4.jpg" alt="画像4" /></div>
+      <div class="swiper-slide"><img src="img/main5.jpg" alt="画像5" /></div>
+    </div>
+    <!-- ドットインジケーター -->
+    <div class="swiper-pagination"></div>
+  </div>
+<!--画像スライドここまで-->
+
+<!--Profile-->
+<section id="profile">
+<div class="markertitle">
+    <h2 class="sectiontitle">Profile<br><p class="section-txt">じこしょうかい</p></h2>
+</div>
+  </div>
+<div class="profile-txt">
+  
+    <ruby class="name-size">阿部今日子<rt>あべきょうこ<rt></ruby><br>
+    <p class="about-txt">と申します。<br>
+        1998年3月18日生まれ<br>
+        <span class="point-txt">青森県青森市</span>出身です。<br>
+        <span class="career-txt">経歴</span><br>
+        <span class="career-sub">
+        2020年3月<br>
+        東北芸術工科大学グラフィックデザイン学科卒<br>
+        2020年4月<br>
+        株式会社マーキュリー入社（家電量販店営業）<br>
+        2021年2月<br>
+        株式会社アイフリークモバイル入社<br>
+        ↓2021年5月～2023年3月<br>
+        委託業務ヘルプデスク業務（電話対応メイン、新人研修対応）<br>
+        ↓2023年4月〜2025年3月<br>
+        委託業務　HP管理業務（HP作成修正更新）</span>
+        <br>
+        <span class="point-txt">イラスト</span>を描くことが好きです。<br>
+        どうぞよろしくお願いします。
+        <img src="img/kumapple.png" class="prof-img1">
+        <img src="img/kumasinkansen.png" class="prof-img2">
+        <img src="img/kumaart.png" class="prof-img3">
+    </p>
+</div>
+</section>
+<!--profileここまで-->
+<!--skillここから-->
+<section id="skills">
+  <div class="markertitle">
+      <h2 class="sectiontitle">Skills<br><p class="section-txt">できること　</p></h2>
+  </div>
+  <img src="img/skills.png" class="skill-img">
+  <div class="skill-section">
+    <!--3カラム-->
+    <section class="three-items">
+      <div class="item">
+        <h3><ruby>Programming<rt>プログラミング言語関係</rt></ruby></h3>
+        <p>HTML,CSS,javascript,php,VBA<br>
+          現在Reactも学習中です。
+        </p>
+      </div>
+      <div class="item">
+        <h3><ruby>illustration/design<rt>イラストやデザイン</rt></ruby></h3>
+        <p>イラストやデザイン得意です。<br>
+          ツールはillustrator,photoshop,indesign(大学時代履修)<br>
+          CLIPSTUDIOPAINTEX
+        </p>
+      </div>
+      <div class="item">
+        <h3><ruby>Another<rt>その他使えるツール</rt></ruby></h3>
+        <p>Word,Excel,Powerpoint<br>
+          Live2D,Blender学習中<br>
+          マクロ作成可能
+        </p>
+      </div>
+    </section>
+    <!--3カラムここまで-->
+<img src="img/kumahp.gif" class="hp-gif">
+<img src="img/hukidasi.png" class="hukidasi-img">
+  </div>
+  <img src="img/kumawork.png" class="kumawork-img">
+  </section>
+  <!--skillここまで-->
+  <!--worksここから-->
+  <section id="works">
+   
+    <div class="markertitle">
+      <h2 class="sectiontitle">Works<br><p class="section-txt">制作物　</p></h2>
+  </div>
+  <ul class="flex delayScroll">
+
+    <li class="box">
+   <a href="site.html"><img src="img/html.png" alt="">
+   </a>
+   <p>HTML/CSS/JS関連</p>
+  </li>
+  <li class="box">
+    <a href="https://kyokoabe.github.io/illustration.github.io/" target="_blank"><img src="img/illustsite.png" alt="">
+    </a>
+    <p>イラストレーションサイト</p>
+   </li>
+   <li class="box">
+    <a href="live2d.html"><img src="img/live2dtitle.png" alt="">
+    </a>
+    <p>Live2D関連</p>
+   </li>
+  </ul>
+  <div class="workbutton">
+    <a href="andmore.html">And More…</a>
+  </div>
+  </section>
+<!--worksここまで-->
+<!--contactここから-->
+<section id="contact">
+  <div class="markertitle">
+      <h2 class="sectiontitle " >Contact<br><p class="section-txt">お問い合わせ</p></div>
+       
+  <div class="form-back">
+    <img src="img/contact.png" class="contact-img">
+  <p>ご質問等ありましたら以下のフォームよりお気軽にお問合せください。</p>
+  <form
+  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSde4z0vDUOHw68XCzImXJ7_JHY7ZxUhhtjDINhZ-KZ_GkdJcA/formResponse"
+  method="POST"
+  target="hidden_iframe"
+  onsubmit="submitted=true;"
+  class="c-form">
+<p style="text-align: center; margin: 20px auto">
+  下記の項目を入力して、「送信する」のボタンを押して下さい。<br>必須の欄は必ず全てご記入下さい。<br>
+      ※送信後はGoogleformに移動します。
+</p>
+
+<p style="text-align: center; margin: 40px auto">
+  ※回答までには1週間程度かかる場合もございます。御了承下さい。
+</p>
+
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSde4z0vDUOHw68XCzImXJ7_JHY7ZxUhhtjDINhZ-KZ_GkdJcA/formResponse" class="c-form">
+  <div class="c-form__item">
+    <label class="c-form__label" for="field-name"
+      >名前・会社名<span class="c-form__required">必須</span></label
+    >
+    <input
+      name="entry.117114141"
+      class="c-form__input"
+      id="field-name"
+      placeholder="氏名"
+      type="text"
+      required="required"
+    />
+  </div>
+  <div class="c-form__item">
+    <label class="c-form__label" for="field-mail"
+      >メールアドレス<span class="c-form__required">必須</span></label
+    >
+    <input
+      name="entry.1674783844"
+      class="c-form__input"
+      id="field-mail"
+      placeholder="sample@gmail.com"
+      type="email"
+      required="required"
+    />
+  </div>
+  <div class="c-form__item">
+    <label class="c-form__label" for="field-message">お問い合わせ内容</label>
+    <textarea
+      name="entry.1425185795"
+      class="c-form__input"
+      id="field-message"
+      placeholder="お問い合わせ内容"
+    ></textarea>
+  </div>
+  <div class="c-form__submit">
+    <button type="submit">送信する</button>
+  </div>
+</form>
+</div>
+</section>
+<!--contactここまで-->
+<!--ここからfotter-->
+<footer>
+  <div class="wrapper">
+   
+      <p><small>&copy2025 KyokoAbePortfolio</small></p>
+      <img src="img/footer.png" class="footer-img">
+  </div>
+</footer>
+<script src="js/loding.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/scroll.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script><!--画像sliderライブラリ-->
+<script>
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      effect: "fade", 
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  
+    </body>
+
+</html>
