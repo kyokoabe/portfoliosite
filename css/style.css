@@ -543,7 +543,35 @@ body {
   background-color: #fff;
   padding-bottom:3px;
 }
+
+.kumasite-img2 {/*ilar.html用*/
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  line-height: 0;
+  z-index: 1;
+  display:block;
+}
+.kumasite-img3 {/*blender.html用*/
+  width: 100%;
+  position: absolute;
+  top: 7%;
+  left: 0;
+  line-height: 0;
+  z-index: 1;
+  display:block;
+}
 .kumasite-img {
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  line-height: 0;
+  z-index: 0;
+  display:block;
+}
+.kumasite-imgr {
   width: 100%;
   position: absolute;
   top: 15%;
@@ -554,6 +582,28 @@ body {
 }
 
 .title-txt {
+  position: absolute;
+  font-size:50px;
+  top:30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1b606e;
+  z-index: 10;
+  text-align: center;
+  font-family: 'Yomogi', 'Patrick Hand', 'Noto Sans JP', sans-serif;
+}
+.title-txt2 {/*ilar.html用*/
+  position: absolute;
+  font-size:50px;
+  top:15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1b606e;
+  z-index: 10;
+  text-align: center;
+  font-family: 'Yomogi', 'Patrick Hand', 'Noto Sans JP', sans-serif;
+}
+.title-txtr {
   position: absolute;
   font-size:50px;
   top:30%;
@@ -812,6 +862,19 @@ footer {
   max-width:100%;
 
 }
+/*illustratorページ*/
+.ilar1-img{
+  width:40%;
+  display: block;
+  padding-top: 15%;
+  margin:0 auto;
+
+}
+.ilar2-img{
+  width:50%;
+  display: block;
+  margin:0 auto;
+}
 /* レスポンシブ対応 */
 @media screen and (max-width: 600px) {
   
@@ -958,7 +1021,7 @@ footer {
   /*TOP画像上のロゴ*/
   .slide-overlay {
     position: absolute;
-    top: 30%;
+    top: 25%;
     z-index: 10;
     pointer-events: none; 
   }
@@ -990,6 +1053,7 @@ footer {
   .prof-img3{
     left:0;
     right:0;
+    top:82%;
     display: block;
   }
   /*skillsの3カラム*/
@@ -1003,6 +1067,9 @@ footer {
   }
   .hp-gif{
     width:50%;
+  }
+  .skill-img{
+    margin-bottom:0;
   }
 /*site.html関連-------------------------------------------------------*/
 .kumasite-img{
@@ -1025,5 +1092,16 @@ footer {
 .boxw {
   width: 60%; /* 幅を広げて見やすく */
   margin: 15px auto;
+}
+/*andmore,lar,blenderページ*/
+.kumasite-imgr {
+  top:4%;
+}
+.title-txtr{
+  top:13%;
+  font-size:27px;
+}
+.title-txt2{
+  font-size:30px;
 }
 }
